@@ -1,28 +1,15 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import { auth } from '../firebase';
-import { signInWithEmailAndPassword } from 'firebase/auth';
-
+import { Link } from 'react-router-dom';
 const LoginPage = ({ setUser }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(null);
-  const navigate = useNavigate();
+  
   
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('Attempting to log in with:', email, password);  // Debug log
 
-    try {
-      await signInWithEmailAndPassword(auth, email, password);
-      console.log('Login successful');  // Debug log
-      setUser(auth.currentUser);  // Set the user using the passed prop
-      navigate('/products');  // Redirect to the products page after login
-    } catch (err) {
-      console.error('Login error:', err);  // Debug log
-      setError('Invalid email or password. Please try again.');
-    }
   };
 
   return (
@@ -49,7 +36,6 @@ const LoginPage = ({ setUser }) => {
             required
           />
         </div>
-        {error && <p style={{ color: 'red' }}>{error}</p>} {/* Display error message */}
         <button type="submit" class="btn m-4" style={{backgroundColor:"#09b509",color:"white"}} >Login</button>
       </form>
       <p >Have you registered ?</p>
