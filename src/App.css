@@ -1,0 +1,39 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin:3rem 0 0 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.wallpaper{
+  background-image: url('./components/images/wallpaper.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-size: cover; /* Make the image cover the entire container */
+  width: 100vw; /* Full width of the container */
+  
+}
+.home {
+  display: flex;
+  background-image: url('./components/images/home.jpg'); /* Add your image path */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-size: cover; /* Make the image cover the entire container */
+  height: 100vh; /* Full viewport height for the container */
+  width: 100%; /* Ensure full width of the viewport */
+}
+
+
+@media (max-width: 768px) {
+  .home {
+    display: flex; /* Makes it a flex container */
+    flex-direction: column; /* Arranges children in a column */
+    background-repeat: no-repeat; /* Ensures the image doesn't tile */
+    background-position: center; /* Centers the background image */
+    background-size: cover; /* Ensures the image scales to fit the container */
+    height: auto; /* Adjust height to fit content */
+    padding: 20%; /* Add padding for better mobile spacing */
+  }
+}
