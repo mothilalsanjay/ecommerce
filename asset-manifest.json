@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mothilalsanjay/ecommerce/static/css/main.dc11b5e6.css",
+    "main.js": "/mothilalsanjay/ecommerce/static/js/main.974196aa.js",
+    "static/js/488.048a9c15.chunk.js": "/mothilalsanjay/ecommerce/static/js/488.048a9c15.chunk.js",
+    "static/media/wallpaper.jpg": "/mothilalsanjay/ecommerce/static/media/wallpaper.26df409498b902a4fa8b.jpg",
+    "static/media/home.jpg": "/mothilalsanjay/ecommerce/static/media/home.3d4fe3769592551aec1c.jpg",
+    "static/media/shoes.jpg": "/mothilalsanjay/ecommerce/static/media/shoes.d94c1ca6177f035c9c6a.jpg",
+    "static/media/shoes5.jpg": "/mothilalsanjay/ecommerce/static/media/shoes5.4b7f457f93ba90e962fd.jpg",
+    "static/media/belt1.jpg": "/mothilalsanjay/ecommerce/static/media/belt1.ef2e301173e147bf0951.jpg",
+    "static/media/shoes3.jpg": "/mothilalsanjay/ecommerce/static/media/shoes3.3f729bf27b9119d06faa.jpg",
+    "static/media/pant2.jpg": "/mothilalsanjay/ecommerce/static/media/pant2.668400e741196c23ea56.jpg",
+    "static/media/pant3.jpg": "/mothilalsanjay/ecommerce/static/media/pant3.0e80e5ce777e1b038554.jpg",
+    "static/media/pant4.jpg": "/mothilalsanjay/ecommerce/static/media/pant4.8994b7c29bd3b88c10ba.jpg",
+    "static/media/shoes1.jpg": "/mothilalsanjay/ecommerce/static/media/shoes1.9fd16bd78f9c44b433b0.jpg",
+    "static/media/shoes2.jpg": "/mothilalsanjay/ecommerce/static/media/shoes2.be33f8ce43e47faa7761.jpg",
+    "static/media/shirt.jpg": "/mothilalsanjay/ecommerce/static/media/shirt.7078f4513f93392ecb00.jpg",
+    "static/media/pant1.jpg": "/mothilalsanjay/ecommerce/static/media/pant1.2285ab11eb2f4f5244cf.jpg",
+    "index.html": "/mothilalsanjay/ecommerce/index.html",
+    "main.dc11b5e6.css.map": "/mothilalsanjay/ecommerce/static/css/main.dc11b5e6.css.map",
+    "main.974196aa.js.map": "/mothilalsanjay/ecommerce/static/js/main.974196aa.js.map",
+    "488.048a9c15.chunk.js.map": "/mothilalsanjay/ecommerce/static/js/488.048a9c15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc11b5e6.css",
+    "static/js/main.974196aa.js"
+  ]
+}
