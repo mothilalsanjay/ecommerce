@@ -13,7 +13,15 @@ const LoginPage = ({ setUser }) => {
   };
 
   return (
-    <div className='container d-flex flex-column text-center w-75 mt-5 text-dark'>
+    <div className='container d-flex text-center w-75 mt-5 text-dark'>
+
+      <section>
+        <h2>Welcome back!</h2>
+        <p>Please login to continue.</p>
+        <p>Don't have an account? <Link to="/register">Register now</Link></p>
+        <p>Forgot your password? <Link to="/forgot-password">Reset it here</Link></p>
+      </section>
+      <section>
       <h3>Login</h3>
       <form onSubmit={handleSubmit}>
         <div className='d-flex flex-column '>
@@ -42,6 +50,7 @@ const LoginPage = ({ setUser }) => {
       <Link to="/">
         <button className="btn btn-info text-light">Go to Home Page</button>
       </Link>
+      </section>
     </div>
   );
 };

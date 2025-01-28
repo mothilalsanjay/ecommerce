@@ -1,0 +1,299 @@
+
+
+  [
+    
+    {
+      "id": "1",
+      "name": "Checked Shirts",
+      "description": "Men Check Shirts",
+      "src": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10863018/2019/11/21/49f8c1fa-a4aa-45a8-960f-c5ad8eae3fde1574328384416-Roadster-Men-Navy-Blue--Pink-Regular-Fit-Checked-Casual-Shir-1.jpg",
+      "category": "Shirts",
+      "price": 199
+    },
+    {
+      "id": "2",
+      "name": "Black&White Checked Shit",
+      "description": "GLORYBOYZ Check Shirt for Men Full Sleeves Formal Check Shirts Slim Fit Spread Collar Stylish Big Checks Shirts for Men Office Wear Plaid",
+      "src": "https://m.media-amazon.com/images/I/5102oPXeEqL._AC_UY1100_.jpg",
+      "category": "Shirts",
+      "price": 299
+    },
+    {
+      "id": "3",
+      "name": "Formal Check Shirt",
+      "description": "Checks Shirts | Formal Check Shirt | Buy Check Shirts for Men ",
+      "src": "https://www.ottostore.com/cdn/shop/files/02_e5db06a8-3770-4fd4-a47b-6d43d9c36cbc_400x.jpg?v=1735882299",
+      "category": "Shirts",
+      "price": 149
+    },
+    {
+      "id": "4",
+      "name": "Full Sleeve",
+      "description":"GLORYBOYZ Check Shirt for Men Full Sleeves Formal Check Shirts Slim Fit Spread Collar Stylish Big Checks Shirts for Men Office Wear Plaid",
+      "src": "https://m.media-amazon.com/images/I/51nlyPeVcTL._AC_UY1100_.jpg",
+      "category": "Shirts",
+      "price": 179
+    },
+    {
+      "id": "5",
+      "name": "Roadster Men",
+      "description":"Roadster Men Checkered Casual Dark Blue, Maroon Shirt - Buy Roadster Men Checkered Casual Dark Blue, Maroon Shirt Online at Best Prices ",
+      "src": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/z/i/t/48-1862801-roadster-original-imag2ygbvtyxyyzc-bb.jpeg?q=20&crop=false",
+      "category": "Shirts",
+      "price": 249
+    },
+    {
+      "id": "6",
+      "name": "Jeans Pants",
+      "description":"Relaxed Fit blue jeans",
+      "src": "https://blog.mehar.xyz/wp-content/uploads/2023/10/Men-Relaxed-Fit-Jeans.jpg",
+      "category": "Pants",
+      "price": 269
+    }
+    ,
+    {
+      "id": "7",
+      "name": "Jeans Pants",
+      "description":"*'s Plus Size * Jeans, Vintage Style Comfy Pants",
+      "src": "https://img.kwcdn.com/product/fancy/83a2e099-ba8c-42a0-9f66-a9996afb2086.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+      "category": "Pants",
+      "price": 269
+    },
+    {
+      "id": "8",
+      "name": "Black Jeans",
+      "description":"*ANGERHOOD Loose Fit Men Black Jeans - Buy ANGERHOOD Loose Fit Men Black Jeans Online",
+      "src": "https://rukminim1.flixcart.com/image/300/300/xif0q/jean/g/f/a/28-t-baggy-grey-tidda-original-imah3ztwtzzyxxhc.jpeg",
+      "category": "Pants",
+      "price": 269
+    },
+    {
+      "id": "9",
+      "name": "Denim Jeans",
+      "description":"Bysonglezai Jeans Men's Pants Casual Letter Embroidery Washed Jeans Pants Mens and Womens Straight Retro Ripped Oversize Casual Denim",
+      "src": "https://m.media-amazon.com/images/I/71K1TlNeXFL._AC_UY1000_.jpg",
+      "category": "Pants",
+      "price": 269
+    },
+    {
+      "id": "10",
+      "name": "Cargo Pants",
+      "src": "https://www.snitch.co.in/cdn/shop/files/4MSD3716-0134.jpg?v=1728477990&width=1080",
+      "category": "Pants",
+      "price": 149,
+      "description": "Stylish and durable cargo pants with multiple pockets, perfect for outdoor adventures."
+    },
+    {
+      "id": "11",
+      "name": "Formal Pants",
+      "src": "https://images-cdn.ubuy.co.in/643f182907e7b77d0d1a4b1d-sunsiom-stylish-men-slim-fit-stripe.jpg",
+      "category": "Pants",
+      "price": 179,
+      "description": "Elegant formal pants designed for business meetings and professional settings."
+    },
+    {
+      "id": "12",
+      "name": "Jeans Pants",
+      "src": "https://blog.mehar.xyz/wp-content/uploads/2023/10/Men-Straight-Jeans.jpg",
+      "category": "Pants",
+      "price": 249,
+      "description": "Classic blue jeans with a comfortable fit and a timeless style."
+    },
+    {
+      "id": "13",
+      "name": "Chinos",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2qx1pwhEJTTKkLNQp58VHO6oxWZfg3QLuw&s",
+      "category": "Pants",
+      "price": 199,
+      "description": "Lightweight and breathable chinos, ideal for casual or semi-formal occasions."
+    },
+    {
+      "id": "14",
+      "name": "Track Pants",
+      "src": "https://www.tistabene.com/cdn/shop/files/JGR-0116A.jpg?v=1702892016",
+      "category": "Pants",
+      "price": 129,
+      "description": "Comfortable track pants for workouts and lounging."
+    },
+    {
+      "id": "15",
+      "name": "Oxford Shoes",
+      "src": "https://fausto.in/cdn/shop/files/FSTKI-6502BROWN_400x.jpg?v=1727938571",
+      "category": "Shoes",
+      "price": 300,
+      "description": "Premium leather oxford shoes for formal wear and special occasions."
+    },
+    {
+      "id": "16",
+      "name": "Oxford Shoes",
+      "src": "https://www.thealternate.in/cdn/shop/products/31.jpg?v=1641795734",
+      "category": "Shoes",
+      "price": 300,
+      "description": "Premium leather oxford shoes for formal wear and special occasions."
+    },
+    {
+      "id": "17",
+      "name": "Running Shoes",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqI-I8NOiyejB5T03wtk4yzCy0LvgL7UlKOg&s",
+      "category": "Shoes",
+      "price": 250,
+      "description": "Lightweight and cushioned running shoes for ultimate comfort."
+    },
+    {
+      "id": "18",
+      "name": "Running Shoes",
+      "src": "https://menshealth.com.au/wp-content/uploads/2024/05/a9e6bebc-0a39-48f6-906d-572516ad4a4b_HOKA_S23_Clifton-9-ezgif.com-avif-to-jpg-converter.jpg",
+      "category": "Shoes",
+      "price": 250,
+      "description": "Lightweight and cushioned running shoes for ultimate comfort."
+    },
+    {
+      "id": "19",
+      "name": "Boots",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHDMk6JhaVS_iusMVyIr75A0PGHx_q25WnQ&s",
+      "category": "Shoes",
+      "price": 270,
+      "description": "Rugged boots built for style and durability in all weather conditions."
+    },
+    {
+      "id": "20",
+      "name": "Boots",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVl0llL0T5HAN536n2En1xt68MMhmIWrsvg&s",
+      "category": "Shoes",
+      "price": 270,
+      "description": "Rugged boots built for style and durability in all weather conditions."
+    },
+    {
+      "id": "21",
+      "name": "White Sneakers",
+      "src": "https://cdnimg.brunomarc.com/brunomarcs/image/article/20220818_79/sbfs223m-white-sneakers.jpg",
+      "category": "Shoes",
+      "price": 320,
+      "description": "Trendy white sneakers that pair well with any casual outfit."
+    },
+    {
+      "id": "22",
+      "name": "White Sneakers",
+      "src": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/10339033/2025/1/1/52a50df4-90fa-4769-b383-028bb73496471735727218485-US-Polo-Assn-Men-White-Clarkin-Sneakers-1761735727218289-1.jpg",
+      "category": "Shoes",
+      "price": 320,
+      "description": "Trendy white sneakers that pair well with any casual outfit."
+    },
+    {
+      "id": "23",
+      "name": "Red Sneakers",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHI31ShgyNmf0ViuOEZzo_-LslSuDEYaS1g&s",
+      "category": "Shoes",
+      "price": 300,
+      "description": "Bold red sneakers for a stylish and sporty look."
+    },
+    {
+      "id": "24",
+      "name": "Red Sneakers",
+      "src": "https://i.pinimg.com/originals/fc/80/ba/fc80bacb521fe4ea5c1403ed4cf9b170.jpg",
+      "category": "Shoes",
+      "price": 300,
+      "description": "Bold red sneakers for a stylish and sporty look."
+    },
+    {
+      "id": "25",
+      "name": "Classic Style Walnut Antique ",
+      "src": "https://www.royalzig.com/uploads/cache/cache-NCR-Classic-Style-Walnut-Antique-Finish-Living-Room-Furniture.jpg",
+      "category": "Furniture",
+      "price": 3500,
+      "description": "Hand Crafter classic italian sofa. Seat Include 3 Seater Sofa + 2 Seater"
+    },
+
+    {
+      "id": "26",
+      "name": "Red Sofa",
+      "src": "https://media.designcafe.com/wp-content/uploads/2021/02/12192847/red-living-room-ideas.jpg",
+      "category": "Furniture",
+      "price": 3500,
+      "description": "Elegant wooden coffee table with a modern design."
+    },
+    {
+      "id": "27",
+      "name": "Classic Style Walnut Antique ",
+      "src": "https://www.royalzig.com/uploads/cache/cache-NCR-Classic-Style-Walnut-Antique-Finish-Living-Room-Furniture.jpg",
+      "category": "Furniture",
+      "price": 3500,
+      "description": "Hand Crafter classic italian sofa. Seat Include 3 Seater Sofa + 2 Seater"
+    },
+    {
+      "id": "28",
+      "name": "Wooden Coffee Table",
+      "src": "https://i.etsystatic.com/27345902/r/il/b3617d/3499677642/il_fullxfull.3499677642_j8nk.jpg",
+      "category": "Furniture",
+      "price": 3500,
+      "description": "Elegant wooden coffee table with a modern design."
+    },
+    {
+      "id": "29",
+      "name": "Red Sofa",
+      "src": "https://media.designcafe.com/wp-content/uploads/2021/02/12192847/red-living-room-ideas.jpg",
+      "category": "Furniture",
+      "price": 3500,
+      "description": "Elegant wooden coffee table with a modern design."
+    },
+    {
+      "id": "30",
+      "name": "Wristwatch",
+      "src": "https://images-cdn.ubuy.co.in/66146c21a6202f048b3b85c3-infantry-dual-time-analog-digital-wrist.jpg",
+      "category": "Watch",
+      "price": 1200,
+      "description": "Classic wristwatch with a leather strap for a sophisticated look."
+    },
+    {
+      "id": "31",
+      "name": "Smartwatch",
+      "src": "https://rukminim2.flixcart.com/image/850/1000/l3xcr680/watch/m/t/h/1-silverleddigital-omenterprisehub-boys-girls-original-imagexk4zzqfb8km.jpeg?q=90&crop=false",
+      "category": "Watch",
+      "price": 5000,
+      "description": "Smartwatch with fitness tracking and notification features."
+    },
+    {
+      "id": "32",
+      "name": "Digital Sports",
+      "src": "https://skmei.in/cdn/shop/files/1828_3.jpg?v=1713247667&width=2048",
+      "category": "Watch",
+      "price": 5000,
+      "description": "SKMEI Men's Digital Sports Watch, LED Square Large Face Wrist Watch with Multi-Time Zone Waterproof"
+    },
+    {
+      "id": "33",
+      "name": "Black-Gold Watch",
+      "src": "https://finebuy.co.in/wp-content/uploads/2024/05/fossil-auto1.webp",
+      "category": "Watch",
+      "price": 5000,
+      "description": "FSL Automatic Black-Gold Skeleton Dial Men's Wrist Watch - Finebuy Online Shopping"
+    },
+    {
+      "id": "34",
+      "name": "Rolex",
+      "src": "https://i.ebayimg.com/images/g/47sAAOSwByVgxh2Y/s-l1600.jpg",
+      "category": "Watch",
+      "price": 5000,
+      "description": "Gold rolex clearance with diamonds"
+    },
+    {
+      "id": "35",
+      "name": "Apple Watch",
+      "src": "https://images-cdn.ubuy.co.in/6593d3e0692bd14e1760d7b5-apple-watch-ultra-2-49-mm-titanium.jpg",
+      "category": "Watch",
+      "price": 5000,
+      "description": "Apple Watch Ultra 2 - Titanium Smart Watch with Ocean Band - Orange - 64 GB"
+    },
+    {
+      "id": "36",
+      "name": "Apple Watch",
+      "src": "https://media.wired.com/photos/650a005a3b7e4d610a1152e8/master/pass/Apple-Watch-Ultra-2-Review-Featured-Gear.jpg",
+      "category": "Watch",
+      "price": 5000,
+      "description": "Apple Watch Ultra 2 - White Smart Watch with Ocean Band - Orange - 64 GB"
+    }
+  ]
+  
+ 
+ 
+

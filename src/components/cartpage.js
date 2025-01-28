@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Cart = ({ cart, removeFromCart }) => {
   const handleRemove = (productId) => {
@@ -12,7 +13,7 @@ const Cart = ({ cart, removeFromCart }) => {
       {cart.length === 0 ? (
         <div>
              <p>Your cart is empty.</p>
-             <p>Pls go to products page </p>
+             <a href="/products">Pls go to products page </a>
         </div>
      
       ) : (
@@ -27,16 +28,13 @@ const Cart = ({ cart, removeFromCart }) => {
            <p className="card-text">${product.price}</p>
          </div>
               <div className='d-flex justify-content-evenly mb-1'>
-                  <button
-                    type="button"
-                    className="btn btn-danger"
-                    onClick={() => handleRemove(product.id)}
-                  >
-                    Remove
-                  </button>
-                  <button type="button" className="btn btn-success">
-                    Checkout
-                  </button>
+                <Link >
+                <button className="btn btn-danger" onClick={() => handleRemove(product.id)}> Remove
+                </button>
+                </Link>
+          <Link to="/registor">
+            <button className="btn btn-success">Checkout</button>
+          </Link>
                 </div>
             </div>
           ))}

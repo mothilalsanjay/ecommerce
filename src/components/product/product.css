@@ -1,0 +1,155 @@
+/* General Styles for Mobile */
+@media (max-width: 768px) {
+  /* Product Head Section */
+  .producthead {
+    display: flex;
+    flex-direction: row; /* Keep the items in a row for larger screens */
+    justify-content: center; /* Center the buttons */
+    align-items: center; /* Align buttons vertically */
+    padding: 0;
+    background-color: transparent;
+    flex-wrap: wrap; /* Allow buttons to wrap into new rows if needed */
+  }
+
+  .producthead button {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    width: auto; /* Let buttons size according to text */
+  }
+
+  /* Product List Grid */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for mobile by reducing min width */
+    gap: 1rem;
+    margin: 1rem; /* Reduce margin */
+  }
+
+  .card {
+    width: 100%; 
+    padding: 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 10rem; /* Adjust image size for mobile */
+    object-fit: cover;
+  }
+
+.modal-overlay{
+  width: 100%;
+  max-width:auto !important;
+}
+.modal-content{
+display:flex;
+flex-direction:row;
+margin:2rem;
+}
+}
+
+
+/* General Styles for Product List */
+.producthead {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center; /* Centers buttons vertically */
+  flex-wrap: wrap; /* Allows buttons to wrap to a new line if they overflow */
+  gap: 20px; /* Adds space between the buttons */
+  padding: 10px; /* Optional, for some padding around the section */
+}
+
+.producthead button {
+  padding: 10px 20px; /* Adjust button size */
+  background-color: rgb(213, 222, 231); /* Button background color */
+  color: black; /* Button text color */
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.producthead button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 1rem;
+  margin: 5rem 1rem;
+}
+
+.card {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(73, 67, 67, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+}
+
+.product-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.right {
+  width: 100%;
+  margin: 1rem;
+}
