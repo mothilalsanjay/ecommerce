@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.e9957956.css",
-    "main.js": "/ecommerce/static/js/main.bc029b79.js",
+    "main.css": "/ecommerce/static/css/main.c71a2921.css",
+    "main.js": "/ecommerce/static/js/main.24bb65c4.js",
     "static/js/488.048a9c15.chunk.js": "/ecommerce/static/js/488.048a9c15.chunk.js",
     "static/media/dres.jpg": "/ecommerce/static/media/dres.f6f81467f528e571ad25.jpg",
     "static/media/realme.jpg": "/ecommerce/static/media/realme.167dd337d04b32505cc8.jpg",
     "static/media/laptop.jpg": "/ecommerce/static/media/laptop.a8bcb2dafd160a7de174.jpg",
     "static/media/background1.jpg": "/ecommerce/static/media/background1.69bcf76d7a2d7af151d8.jpg",
     "index.html": "/ecommerce/index.html",
-    "main.e9957956.css.map": "/ecommerce/static/css/main.e9957956.css.map",
-    "main.bc029b79.js.map": "/ecommerce/static/js/main.bc029b79.js.map",
+    "main.c71a2921.css.map": "/ecommerce/static/css/main.c71a2921.css.map",
+    "main.24bb65c4.js.map": "/ecommerce/static/js/main.24bb65c4.js.map",
     "488.048a9c15.chunk.js.map": "/ecommerce/static/js/488.048a9c15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9957956.css",
-    "static/js/main.bc029b79.js"
+    "static/css/main.c71a2921.css",
+    "static/js/main.24bb65c4.js"
   ]
 }
