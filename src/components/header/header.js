@@ -74,7 +74,7 @@ const Header = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link" to="/ecommerce">
                     Home
                   </Link>
                 </li>
@@ -99,7 +99,7 @@ const Header = () => {
     {/* <Products addToCart={addToCart} /> */}
       {/* Routes */}
       <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/ecommerce" element={<Home/>}/>
         <Route path="/registor" element={<Registor/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/products" element={<Products addToCart={addToCart} />} />
