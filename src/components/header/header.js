@@ -4,7 +4,7 @@ import Products from "../product/product";
 import CartPage from "../cartpage";
 import Registor from '../registor/registor';
 import Login from '../login';
-import Home from '../home';
+import Home from '../home/home';
 import "./header.css";
 
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+            <button className="btn btn-primary p--1">
               Search
             </button>
           

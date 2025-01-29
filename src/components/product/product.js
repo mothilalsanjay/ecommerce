@@ -9,15 +9,34 @@ const Product = ({ addToCart }) => {
     return (
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-          <section>
+          <section className='left'>
             <span className="close-btn" onClick={onClose}>&times;</span>
             <img src={product.src} alt={product.name} className="product-img" />
+            <p className='modal-des'>RS: {product.description}</p>
           </section>
-          <div>
             <section className="right">
-              <h2>{product.name}</h2>
-              <p className="text-success fw-bold">Special Price</p>
-              <p>RS: {product.price}</p>
+              <h4 className='text-center'>{product.name}</h4>
+              <div className="rightsection">
+    <p className="text-success fw-bold">Special Price</p>
+    <p>RS: {product.price}</p>
+    <label htmlFor="size">Size:</label>
+    <select id="size" name="size">
+        <option value="">Select Size</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+    </select>
+    <label htmlFor="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" defaultValue="1" />
+</div>
+                <div className='offersection'>
+                <p>Available offers</p>
+              <p>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C</p>
+              <p>Bank Offer10% off up to ₹1,500 on BOBCARD Transactions, on orders of ₹4,990 and aboveT&C</p>
+              <p>Bank Offer10% off up to ₹2,000 on BOBCARD EMI Transactions, on orders of ₹4,990 and aboveT&C</p>
+                </div>
+            
               <button
                 className="btn btn-primary"
                 onClick={() => handleAddToCart(product)}
@@ -26,7 +45,7 @@ const Product = ({ addToCart }) => {
               </button>
             </section>
           </div>
-        </div>
+        
       </div>
     );
   };
@@ -58,9 +77,8 @@ const Product = ({ addToCart }) => {
       : productsData.filter((product) => product.category === selectedCategory);
 
   return (
-    <div>
-      <h2 className="mt-2">Products</h2>
-      <div className="wallpaper">
+
+      <div >
         <section className="producthead">
           {categories.map((category) => (
             <button
@@ -77,13 +95,13 @@ const Product = ({ addToCart }) => {
             <div key={product.id} className="card">
               <img src={product.src} alt={product.name} className="card-img-top" />
               <div className="card-body">
-                <h5 className="card-title">{product.name}</h5>
-                <p className="card-text">₹{product.price}</p>
+                <h6 className="card-title">{product.name}</h6>
+             
               </div>
-              <div className="d-flex m-1 justify-content-around align-items-center">
-                <button
+              <div className="d-flex justify-content-around align-items-center">
+                <button className="btn btn-primary m-2"
                   onClick={() => handleViewProduct(product)}
-                  className="btn btn-primary"
+              
                 >
                   View Product
                 </button>
@@ -94,7 +112,7 @@ const Product = ({ addToCart }) => {
           <Modal product={selectedProduct} onClose={closeModal} />
         </section>
       </div>
-    </div>
+   
   );
 };
 

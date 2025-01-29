@@ -62,7 +62,7 @@ const RegisterPage = ({ setUser }) => {
       </form>
       <p className='text-center'>Already have an account?</p>
       <Link to="/login">
-        <button className="btn btn-success">Go to Login</button>
+        <button className="btn btn-primary ">Go to Login</button>
       </Link>
     </div>
   );

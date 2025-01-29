@@ -1,46 +1,42 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import "./product/product.css"
 
 const Cart = ({ cart, removeFromCart }) => {
   const handleRemove = (productId) => {
     removeFromCart(productId); // Call the remove function with the product ID
   };
-  
 
   return (
-    <div className='text-center mt-2' >
+    <div className='text-center mt-2'>
       <h2>Your Cart</h2>
       {cart.length === 0 ? (
         <div>
-             <p>Your cart is empty.</p>
-             <a href="/products">Pls go to products page </a>
+          <p>Your cart is empty.</p>
+          <Link to="/products">Pls go to products page</Link>
         </div>
-     
       ) : (
         <div>
-  <p>Check out your products for delivery</p>
-        <div className='d-flex justify-content-evenly flex-wrap' >
-          {cart.map((product) => (
-            <div key={product.id} className="card mb-4" style={{ width: '15rem', boxShadow:"0 0 10px 1px grey" }} >
-              <img src={product.src} alt={product.name} className="card-img-top"style={{ width: '100%', height: '15rem', objectFit: 'fill' }}  />
-              <div className="card-body py-1 d-flex justify-content-between align-items-center">
-           <h5 className="card-title">{product.name}</h5>
-           <p className="card-text">${product.price}</p>
-         </div>
-              <div className='d-flex justify-content-evenly mb-1'>
-                <Link >
-                <button className="btn btn-danger" onClick={() => handleRemove(product.id)}> Remove
-                </button>
-                </Link>
-          <Link to="/registor">
-            <button className="btn btn-success">Checkout</button>
-          </Link>
+          <p>Check out your products for delivery</p>
+          <div className='product-list'>
+            {cart.map((product) => (
+              <div key={product.id} className="card">
+                <img src={product.src} alt={product.name} className="card-img-top" />
+                <div className="card-body">
+                  <h6 className="card-title">{product.name}</h6>
+                  <p>RS: {product.price}</p>
                 </div>
-            </div>
-          ))}
+                <div className='cartbutton'>
+                  <button className="btn btn-danger" onClick={() => handleRemove(product.id)}>
+                    Remove
+                  </button>
+                  <button className="btn btn-success">Checkout</button>
+                
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        </div>
-      
       )}
     </div>
   );

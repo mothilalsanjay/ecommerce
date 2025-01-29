@@ -1,53 +1,26 @@
-/* Container Styling */
-.home{
-    margin:3rem ;
-    width:90vw;
-}
-.homecontainer{
-  width:90vw;
-}
-
-.carousel-item {
-  height: 500px; /* Set a fixed height for the carousel items */
-}
-
-.carousel-item img {
-  object-fit: cover; /* Ensures the image covers the area without stretching */
-  height: 100%; /* Make sure the image fills the height of the carousel item */
-  width: 100%; /* Make sure the image fills the width of the carousel item */
-}
-
-/* Optional: To make carousel images responsive */
-@media (max-width: 768px) {
-  .carousel-item {
-    height: 300px; /* Smaller height for smaller screens */
-  }
-}
+/* Registration form */
 
 .container1 {
-    max-width: 400px;
-    margin: 5rem ;
+  width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    margin: 0 1rem ;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
   }
-  
-  /* Heading Styling */
-  h2 {
+  .container1 h2 {
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: #333;
   }
-  
-  /* Form Styling */
-  form {
+  .container1 form {
     display: flex;
     flex-direction: column;
   }
-  
-  /* Input Styling */
-  input[type="email"], input[type="password"] {
+  .container1 input[type="email"], input[type="password"] {
     padding: 12px;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -55,13 +28,12 @@
     font-size: 14px;
   }
   
-  input[type="email"]:focus, input[type="password"]:focus {
+  .conatiner1 input[type="email"]:focus, input[type="password"]:focus {
     outline: none;
     border-color: #09b509;
   }
   
-  /* Button Styling */
-  button {
+  .container1 button {
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -69,24 +41,17 @@
     cursor: pointer;
   }
   
-  button[type="submit"] {
+  .container1 button[type="submit"] {
     background-color: #09b509;
     color: white;
   }
   
-  button[type="submit"]:hover {
+  .container1 button[type="submit"]:hover {
     background-color: #07a507;
-  }
-  
-  /* Link Button Styling */
+  }  
  
-  
-  button.btn-success:hover {
-    background-color:rgb(30, 189, 64);
-  }
-  
-  /* Error Message Styling */
-  .error-message {
+
+  .container1 .error-message {
     color: #e74c3c;
     font-size: 14px;
     text-align: center;
@@ -107,28 +72,28 @@
   }
   
   /* Media Query for Smaller Screens */
-  @media (max-width: 520px) {
+  @media (max-width: 768px) {
     .container {
     width: 90%;
     padding: 10px;
     margin: 0 auto;
     }
-    input[type="email"], input[type="password"] {
+    .container1 input[type="email"], input[type="password"] {
         padding: 1px;
         margin-bottom: 10px;
         border-radius: 4px;
         border: 1px solid #ccc;
         font-size: 14px;
       }
-      button {
+      .container1   button {
         padding: 5px;
         font-size: 12px;
       }
-      button.btn-success {
+      .container1  button.btn-success {
         font-size: 12px;
       }
       .container1{
-        margin:4rem 1rem;
+        margin:2rem;
       }
   }
   

@@ -1,10 +1,11 @@
 import React from "react";
-import backgroundImage from './images/background1.jpg';
-import background2 from './images/realme.jpg';
-import background3 from './images/laptop.jpg';
-import background4 from './images/dres.jpg';
-import Registor from "./registor/registor";
+import backgroundImage from '../images/background1.jpg';
+import background2 from '../images/realme.jpg';
+import background3 from '../images/laptop.jpg';
+import background4 from '../images/dres.jpg';
+import Registor from "../registor/registor";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
       <div className="home">
       <div className="homecontainer">
         {/* Carousel Component */}
-        <div id="carouselExampleCaptions" className="carousel slide">
+        <div id="carouselExampleCaptions" className="carousel slide ">
           <div className="carousel-indicators">
             <button
               type="button"
@@ -62,7 +63,7 @@ const Home = () => {
             ></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item">
               <img src={backgroundImage} className="d-block w-100" alt="First slide background" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Discover the Best Deals</h5>
@@ -90,7 +91,7 @@ const Home = () => {
                 <p>Explore our stylish and affordable clothing options.</p>
               </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item active">
               <img src="https://brandbajade.com/admin/images/c4b96d9e1d41cb970a49f916bad253881696391341.jpg" className="d-block w-100" alt="Fourth slide background" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Fashion Trends</h5>
